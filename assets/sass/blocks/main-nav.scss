@@ -3,7 +3,27 @@
     padding: 0;
 
     @media(min-width: $tablet) {
-        width: 440px;
+        margin-right: 29px;
+        margin-bottom: 25px;
+
+        width: 405px;
+    }
+
+    @media(min-width: $desktop) {
+        margin-right: 110px;
+        margin-bottom: 5px;
+
+        width: 480px;
+    }
+}
+
+.main-nav__toogle {
+    position: absolute;
+    right: 20px;
+    top: 24px;
+
+    @media(min-width: $tablet), (min-width: $desktop) {
+        display: none;
     }
 }
 

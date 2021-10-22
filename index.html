@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/normilize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.min.css">
     <title>Магазин функционального питания для котов</title>
 </head>
@@ -14,17 +17,18 @@
 
         <a class="header-logo" href="#">
             <picture>
-                <source media="(min-width: 1200px)" srcset="assets/img/logo-desktop.png 1x, assets/img/logo-desktop2x.png 2x">
-                <source media="(min-width: 768px)" srcset="assets/img/logo-tablet.png 1x, assets/img/logo-tablet2x.png 2x">
-                <img class="header-logo" src="assets/img/logo-mobile.png" srcset="assets/img/logo-mobile2x.png 2x" alt="Логотип сайта 'Cat Energy'">
+                <source media="(min-width: 1200px)" width="202" srcset="assets/img/logo-desktop.png 1x, assets/img/logo-desktop2x.png 2x">
+                <source media="(min-width: 768px)" width="174" srcset="assets/img/logo-tablet.png 1x, assets/img/logo-tablet2x.png 2x">
+                <img class="header-logo__img" src="assets/img/logo-img--mobile.png" width="33.32" height="37.61">
             </picture>
+            <img class="header-logo__text" src="assets/img/logo-text--mobile.png" alt="" width="101" height="18">
         </a>
         
         <nav class="main-nav main-nav--closed main-nav--opend main-nav--nojs">
             <button class="main-nav__toogle toogle-button js-toogle"></button>
             <ul class="main-nav__list nav-list">
-                <li class="nav-list__item nav-list__item--active">
-                    <a class="nav-list__link">Главная</a>
+                <li class="nav-list__item ">
+                    <a class="nav-list__link nav-list__link--active">Главная</a>
                 </li>
                 <li class="nav-list__item">
                     <a class="nav-list__link" href="#">Каталог продукции</a>

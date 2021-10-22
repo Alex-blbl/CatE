@@ -2,18 +2,19 @@
     padding: 0;
     margin: 0;
 
-    width: 100%;
-
-    position: absolute;
-    top: 83.39px;
-    left: 0;
-
     list-style: none;
+
+    @media(min-width: $tablet), (min-width: $desktop) {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
 
 .nav-list__item {
+    position: relative;
+
     height: 65px;
-    width: 100%;
 
     background-color: #fff;
 
@@ -23,15 +24,57 @@
 
     &:first-child {
         border-top: 2px solid #E6E6E6;
+
+        @media (min-width: $tablet), (min-width: $desktop) {
+            border: none;
+        }
+    }
+
+    @media(min-width: $tablet) {
+        height: 24px;
+
+        border: none;
     }
 }
 
 .nav-list__link {
-    font-family: 'Oswaid';
+    font-family: 'Oswald';
     font-weight: 500;
     font-size: 20px;
     line-height: 65px;
 
     color: #000;
     text-decoration: none;
+    text-transform: uppercase;
+
+    @media(min-width: $tablet) {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    @media(min-width: $desktop) {
+        font-size: 20px;
+        font-weight: 400;
+        
+        color: #fff;
+    }
+
+    @media(min-width: $tablet) {
+        &--active::after {
+            content: "";
+    
+            position: absolute;
+            left: 0;
+            bottom: -30px;
+    
+            width: 100%;
+            height: 2px;
+            background-color: #68B738;
+
+            @media(min-width: $desktop) {
+                background-color: #fff;
+            }
+        }
+    }
 }
+
