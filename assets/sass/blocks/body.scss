@@ -5,4 +5,11 @@
     box-sizing: border-box;
 
     font-family: 'Oswald', sans-serif;
+    
+    @media(min-width: $desktop) {
+        background-image: url("../img/index-background-desktop.png");
+        background-size: 720px;
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
 }
