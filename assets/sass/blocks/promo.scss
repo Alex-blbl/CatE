@@ -3,7 +3,7 @@
 
     background-image: url("../img/index-can-mobile.png"),
                       url("../img/header-background-mobile.png");
-    background-size: 90%, cover;
+    background-size: 90%, 100%;
     background-position: center 167px, top center;
     background-repeat: no-repeat;
 
@@ -12,7 +12,6 @@
     }
 
     @media(min-width: $desktop) {
-        // background-image: url("../img/index-background-desktop.png");
-        // background-size: 720px;
+        
     }
 }
