@@ -1,4 +1,4 @@
-.header-logo {
+.logo {
     display: flex;
     align-items: center;
 
@@ -26,10 +26,25 @@
 
 }
 
-.header-logo__text {
+.logo__text {
     margin: 13px auto 0;
 
     @media(min-width: $tablet), (min-width: $desktop) {
         display: none;
+    }
+}
+
+.logo__img {
+    width: 33.32px;
+    height: auto;
+
+    @media(min-width: $tablet) {
+        width: 174px;
+        height: auto;
+    }
+
+    @media(min-width: $desktop) {
+        width: 202px;
+        height: auto;
     }
 }

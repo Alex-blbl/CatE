@@ -1,17 +1,115 @@
 .promo {
     min-height: 480px;
+    padding-top: 27px;
+    background: url("../img/index-can-mobile.png") center 167px/280px no-repeat,
+                url("../img/header-background-mobile.png") top center/320px no-repeat,
+                linear-gradient(to bottom, #65A93C 60.5%, transparent 20%);
+    // background-image: url("../img/index-can-mobile.png"),
+    //                   url("../img/header-background-mobile.png");
 
-    background-image: url("../img/index-can-mobile.png"),
-                      url("../img/header-background-mobile.png");
-    background-size: 90%, 100%;
-    background-position: center 167px, top center;
-    background-repeat: no-repeat;
+    // // background-size: 280px, 320px;
+    // background-position: center 167px, top center;
+    // background-repeat: no-repeat;
 
     @media(min-width: $tablet) {
         background-image: none;
+        background-image: url("../img/index-can-tablet.png");
+        background-size: 709px;
+        background-repeat: no-repeat;
+        background-position: center 242.6px;
     }
 
     @media(min-width: $desktop) {
-        
+        background-image: none;
+        // background-image: url("../img/index-can-desktop.png");
     }
 }
+
+.promo__title {
+    margin: 0;
+    // margin-left: 36px;
+    // margin-right: 35px;
+    padding: 0;
+
+    text-align: center;
+
+    @media(min-width: $tablet) {
+        margin-left: 15.2%  ;
+
+        text-align: left;
+    }
+
+    @media(min-width: $desktop) {
+        margin-left: 13.2%;
+        margin-top: 58px;
+    }
+}
+
+.promo-title {
+    max-width: 400px;
+
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #fff;
+    // text-align: center;
+
+    @media(min-width: $tablet), (min-width: $desktop) {
+        width: 414px;
+
+        font-size: 60px;
+        line-height: 60px;
+
+        color: #000;
+    }
+}
+
+.promo__slogan {
+    margin: 0;
+    margin-top: 25px;
+
+    text-align: center;
+
+    @media(min-width: $tablet) {
+        margin-top: 41px;
+        margin-left: 15.2%;
+
+        text-align: left;
+    }
+
+    @media(min-width: $desktop) {
+        margin-top: 40px;
+        margin-left: 13.2%;
+
+        text-align: left;
+    }
+}
+
+.promo-slogan {
+    font-family: "Oswald";
+    font-size: 14px;
+    line-height: 14px;
+
+    color: #fff;
+
+    @media(min-width: $tablet) {
+        font-size: 20px;
+        line-height: 20px;
+
+        color: #000;
+    }
+}
+
+.promo__button {
+    margin-top: 302px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.promo-button {
+    width: 280px;
+    line-height: 40px;
+}
+

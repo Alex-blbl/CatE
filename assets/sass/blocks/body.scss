@@ -7,9 +7,10 @@
     font-family: 'Oswald', sans-serif;
  
     @media(min-width: $desktop) {
-        background-image: url("../img/index-background-desktop.png");
-        background-size: 720px;
+        background-image: url("../img/index-can-desktop.png"),
+                          url("../img/index-background-desktop.png");
+        background-size: 552px, 720px;
         background-repeat: no-repeat;
-        background-position: top right;
+        background-position: 558px 143px, top right;
     }
 }

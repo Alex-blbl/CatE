@@ -1,8 +1,7 @@
 .main-nav {
-    margin: 0;
-    padding: 0;
 
     @media(min-width: $tablet) {
+        margin-top: 30px;
         margin-right: 29px;
         margin-bottom: 25px;
 
@@ -10,6 +9,7 @@
     }
 
     @media(min-width: $desktop) {
+        margin-top: 30px;
         margin-right: 110px;
         margin-bottom: 5px;
 
