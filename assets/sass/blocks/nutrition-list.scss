@@ -1,0 +1,143 @@
+.nutritoin-list {
+    margin: 0;
+    padding: 0;
+}
+
+.nutrition-list__item {
+    margin-bottom: 20px;
+}
+
+.nutrition-item {
+    padding-top: 30px;
+    padding-left: 19px;
+    padding-bottom: 18px;
+
+    background-color: #f2f2f2;
+}
+
+.nutrition-list__header {
+    position: relative;
+}
+
+.nutrition-header {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nutrition-slim::before {
+    content: "";
+    width: 50px;
+    height: 53px;
+
+    position: absolute;
+    left: 0;
+    top: -7px;
+
+    background-image: url("../img/cat_back-slim-mobile.png");
+}
+
+.nutrition-pro {
+    margin-left: 5%;
+
+    &::before {
+        content: "";
+        width: 67px;
+        height: 50px;
+
+        position: absolute;
+        top: 0;
+        left: -22px;
+
+        background-image: url("../img/cat_back-pro-mobile.png");
+    }
+}
+
+.nutrition-list__description {
+    margin: 0;
+}
+
+.nutrition-list__text {
+    margin-top: 29px;
+    margin-right: 34px;
+}
+
+.nutrition-text {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #444;
+}
+
+.nutrition-list__line {
+    margin-top: 23px;
+    margin-bottom: 18px;
+    margin-right: 21px;
+}
+
+.nutrition-list__link {
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        right: -39px;
+        top: 6px;
+    
+        width: 24px;
+        height: 12px;
+        
+        background-image: url("../img/link-arrow.svg");
+
+        @media(min-width: $tablet) {
+            right: -49px;
+        }
+
+        @media(min-width: $desktop) {
+            right: -52px;
+        }
+    }
+
+    @media(min-width: $desktop) {
+        &:hover::after {
+            width: 32px;
+            right: -60px;
+
+            background-image: url("../img/link-arrow--hover.svg");
+            background-repeat: no-repeat;
+        }
+    }
+
+    // &:hover::after {
+    //     width: 32px;
+    //     right: -47px;
+
+    //     background-image: url("../img/link-arrow--hover.svg");
+    //     background-repeat: no-repeat;
+
+    //     @media(min-width: $tablet) {
+    //         right: -57px;
+    //     }
+
+    //     @media(min-width: $desktop) {
+    //         right: -60px;
+    //     }
+    // }
+
+    
+}
+
+
+
+
+.nutrition-link {
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
