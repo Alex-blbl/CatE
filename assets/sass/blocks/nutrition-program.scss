@@ -5,6 +5,12 @@
     margin: 0;
     padding: 0;
     margin-top: 22px;
-    margin-left: 6.25%;
-    margin-right: 6.25%;
+    margin-left: 3.90%;
+    margin-right: 3.90%;
+
+    @media(min-width: $desktop) {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
+

@@ -5,8 +5,14 @@
     box-sizing: border-box;
 
     font-family: 'Oswald', sans-serif;
+
+    @media(min-width: $tablet) {
+        min-width: 768px;
+    }
  
     @media(min-width: $desktop) {
+        min-width: 1200px; 
+
         background-image: url("../img/index-can-desktop.png"),
                           url("../img/index-background-desktop.png");
         background-size: 552px, 720px;
