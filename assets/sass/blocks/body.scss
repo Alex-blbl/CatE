@@ -20,3 +20,16 @@
         background-position: 558px 143px, top right;
     }
 }
+
+.body-wrapper {
+
+    @media(min-width: $tablet) {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media(min-width: $desktop) {
+        width: 1440px;
+    }
+}

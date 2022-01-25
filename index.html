@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.min.css">
     <title>Магазин функционального питания для котов</title>
 </head>
-<body class="body">
+<body class="body body-wrapper">
 
     <header class="page-header">
 
@@ -86,12 +86,12 @@
         </section>
 
 
-        <section class="work-description">
+        <section class="work-description work-description__wrapper">
 
-            <h2 class="work-description__title title">Как это работает</h2>
+            <h2 class="work-description__title description-title title">Как это работает</h2>
 
             <ul class="work-description__list description-list">
-                <li class="description-list__item">
+                <li class="description-list__item description-list__item--one ">
                     <img class="description-list__img" src="assets/img/functional.png" alt="" width="60" height="60">
                     <p class="description-list__text">
                         Функциональное питание
@@ -99,7 +99,7 @@
                         питательные вещества.
                     </p>
                 </li>
-                <li class="description-list__item">
+                <li class="description-list__item description-list__item--two">
                     <img class="description-list__img" src="assets/img/powder.png" alt="" width="60" height="60">
                     <p class="description-list__text">
                         Выпускается в виде порошка, 
@@ -107,18 +107,19 @@
                         кипятком и готово.
                     </p>
                 </li>
-                <li class="description-list__item">
+                <li class="description-list__item description-list__item--three">
                     <img class="description-list__img" src="assets/img/eat.png" alt="" width="60" height="60">
                     <p class="description-list__text">
                         Замените один-два приема 
                         обычной еды на наше 
                         функциональное питание.
                     </p>
+
                 </li>
-                <li class="description-list__item">
+                <li class="description-list__item description-list__item--fourth">
                     <img class="description-list__img" src="assets/img/time.png" alt="" width="60" height="60">
                     <p class="description-list__text">
-                        Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
+                        Уже через месяц наслаждайтесь изменениями к лучшему <br>вашего питомца!
                     </p>
                 </li>
             </ul>
@@ -129,7 +130,7 @@
         <section class="live-example">
 
             <h2 class="live-example__title title">Живой пример</h2>
-            <p class="live-example__text">
+            <p class="live-example__description">
                 Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. 
                 Отличный результат без изнуряющих тренировок! 
                 При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
@@ -137,32 +138,33 @@
 
             <dl class="live-example__result">
                 <div class="live-example__item">
-                    <dt class="live-example__total-num">5 кг</dt>
-                    <dd class="live-example__total-text">снижение веса</dd>
+                    <dt class="live-example__num live-example__num--mass">5 кг</dt>
+                    <dd class="live-example__text live-example__text--mass">снижение веса</dd>
                 </div>
                 <div class="live-example__item">
-                    <dt class="live-example__total-num">60 дней</dt>
-                    <dd class="live-example__total-text">затрачено времени</dd>
+                    <dt class="live-example__num live-example__num--days">60 дней</dt>
+                    <dd class="live-example__text live-example__text--days">затрачено времени</dd>
                 </div>
-            </dl>
 
-            <p class="live-example__description">Затраты на питание: 15 000 руб</p>
+                <p class="live-example__expenses">Затраты на питание: 15 000 руб</p>
+            </dl>
 
             <div class="live-example__slider slider">
                 <ul class="slider__list">
                     <li class="slider__item">
                         <img class="slider__img slide-before" src="assets/img/before-mobile.png" alt="" width="311" height="232">
                     </li>
-                    <li class="slider__item">
+                    <li class="slider__item slide-after slider__item--active">
                         <img class="slider__img slide-after" src="assets/img/after-mobile.png" alt="" width="251" height="240">
                     </li>
                 </ul>
 
                 <div class="slider__buttons">
-                    <a class="slider__before" href="#"></a>
-                    <div class="slider__line"></div>
-                    <div class="slider__pipe"></div>
-                    <a class="slider__after" href="#"></a>
+                    <a class="slider__link link-before" href="#">Было</a>
+                    <div class="slider__line">
+                        <div class="slider__pipe pipe-after"></div>
+                    </div>
+                    <a class="slider__link link-after" href="#">Стало</a>
                 </div>
             </div>
 

@@ -1,0 +1,92 @@
+.slider__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 320px;
+
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+.slider__item {
+    display: none;
+
+    &--active {
+        display: block;
+    }
+}
+
+.slider__img {
+    @media(min-width: $tablet) {
+        width: 708px;
+        height: 620px;
+    }
+}
+
+.slider__buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 228px;
+    height: 40px;
+}
+
+.slider__link {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-family: "Oswald";
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.slider__line {
+    box-sizing: border-box;
+
+    width: 84px;
+    height: 14px;
+
+    border: 1px solid #cdcdcd;
+    border-radius: 6px;
+
+    background-color: white;
+}
+
+.slider__pipe {
+    width: 35px;
+    height: 6px;
+
+    margin-top: 3px;
+
+    border-radius: 6px;
+
+    background-color: #68B738;
+}
+
+.pipe-before {
+    margin-left: 5px;
+}
+
+.pipe-after {
+    margin-left: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

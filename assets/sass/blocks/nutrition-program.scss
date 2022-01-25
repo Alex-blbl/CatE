@@ -1,12 +1,11 @@
 .nutrition-program__list {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     margin: 0;
     padding: 0;
     margin-top: 22px;
-    margin-left: 3.90%;
-    margin-right: 3.90%;
 
     @media(min-width: $desktop) {
         flex-direction: row;
