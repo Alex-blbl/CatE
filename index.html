@@ -154,10 +154,18 @@
                 <div class="live-example__slider slider">
                     <ul class="slider__list">
                         <li class="slider__item">
-                            <img class="slider__img slide-before" src="assets/img/before-mobile.png" alt="" width="311" height="232">
+                            <picture>
+                                <source media="(min-width: 768px)" srcset="assets/img/before@1x.png">
+                                <img class="slider__img slide-before" src="assets/img/before-mobile.png" alt="">
+                            </picture>
+
                         </li>
                         <li class="slider__item slide-after slider__item--active">
-                            <img class="slider__img slide-after" src="assets/img/after-mobile.png" alt="" width="251" height="240">
+                            <picture>
+                                <source media="(min-width: 768px)" srcset="assets/img/after@1x.png">
+                                <img class="slider__img slide-after" src="assets/img/after-mobile.png" alt="">
+                            </picture>
+
                         </li>
                     </ul>
 

@@ -2,6 +2,12 @@
     padding-top: 27px;
 
     background-color: #eaeaea;
+
+    @media(min-width: $tablet) {
+        background-color: #fff;
+
+        border-top: 1px solid #e6e6e6;
+    }
 }
 
 .live-example__title {
@@ -136,6 +142,8 @@
         @media(min-width: $tablet) {
             left: 23px;
             top: 60px;
+
+            background-color: #fff;
         }
     }
 
@@ -152,6 +160,8 @@
 
             left: 9px;
             top: 60px;
+
+            background-color: #fff;
         }
     }
 }

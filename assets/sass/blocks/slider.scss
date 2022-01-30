@@ -10,6 +10,13 @@
     margin-left: auto;
     margin-right: auto;
     list-style: none;
+
+    @media(min-width: $tablet) {
+        position: relative;
+        width: 708px;
+        
+        margin-left: 0px;
+    }
 }
 
 .slider__item {
@@ -18,14 +25,44 @@
     &--active {
         display: block;
     }
-}
 
-.slider__img {
     @media(min-width: $tablet) {
+        display: block;
+
         width: 708px;
         height: 620px;
     }
 }
+
+.slide-before {
+    @media(min-width: $tablet) {
+        position: absolute;
+        z-index: 1;
+        left: -20px;
+
+        width: 400px;
+        height: 620px;
+        object-fit: cover;
+        object-position: left;
+
+        background-color: #eaeaea;
+    }
+}
+
+.slide-after {
+    @media(min-width: $tablet) {
+        position: absolute;
+        left: 18px;
+        z-index: 0;
+
+        height: 620px;
+        width: 100%;
+        //object-fit: cover;
+        //object-position: right;
+    }
+}
+
+
 
 .slider__buttons {
     display: flex;
