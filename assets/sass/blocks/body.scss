@@ -9,16 +9,6 @@
     @media(min-width: $tablet) {
         min-width: 768px;
     }
- 
-    @media(min-width: $desktop) {
-        min-width: 1200px; 
-
-        background-image: url("../img/index-can-desktop.png"),
-                          url("../img/index-background-desktop.png");
-        background-size: 552px, 720px;
-        background-repeat: no-repeat;
-        background-position: 558px 143px, top right;
-    }
 }
 
 .body-wrapper {
@@ -30,6 +20,14 @@
     }
 
     @media(min-width: $desktop) {
-        width: 1440px;
+        min-width: 1200px;
+        max-width: 1440px;
+        width: 100%;
+
+        background-image: url("../img/index-can-desktop.png"),
+                          url("../img/index-background-desktop.png");
+        background-size: 552px, 720px;
+        background-repeat: no-repeat;
+        background-position: 63% 143px, top right;
     }
 }
