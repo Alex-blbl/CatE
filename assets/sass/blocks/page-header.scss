@@ -1,0 +1,13 @@
+.page-header {
+    position: relative;
+    
+    min-height: 66px;
+    margin: 0;
+    padding: 0;
+
+    @media(min-width: $tablet), (min-width: $desktop) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
