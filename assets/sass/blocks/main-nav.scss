@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .main-nav {
 
     @media(min-width: $tablet) {
@@ -30,36 +29,3 @@
 
 
 
-=======
-.main-nav {
-
-    @media(min-width: $tablet) {
-        margin-top: 30px;
-        margin-right: 29px;
-        margin-bottom: 25px;
-
-        width: 405px;
-    }
-
-    @media(min-width: $desktop) {
-        margin-top: 30px;
-        margin-right: 110px;
-        margin-bottom: 5px;
-
-        width: 480px;
-    }
-}
-
-.main-nav__toogle {
-    position: absolute;
-    right: 20px;
-    top: 24px;
-
-    @media(min-width: $tablet), (min-width: $desktop) {
-        display: none;
-    }
-}
-
-
-
->>>>>>> 0784b70c3658a5c6cc78aff6dbf0caed83ee1e53
