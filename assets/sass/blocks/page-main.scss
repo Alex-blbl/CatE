@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // .page-main {
 //     background-image: url("../img/index-can-mobile.png"),
 //                       url("../img/header-background-mobile.png");
@@ -13,4 +14,21 @@
 //         // background-image: url("../img/index-background-desktop.png");
 //         // background-size: 720px;
 //     }
+=======
+// .page-main {
+//     background-image: url("../img/index-can-mobile.png"),
+//                       url("../img/header-background-mobile.png");
+//     background-size: 90%, 100%;
+//     background-position: center 10%, top center;
+//     background-repeat: no-repeat;
+
+//     @media(min-width: $tablet) {
+//         background-image: none;
+//     }
+
+//     @media(min-width: $desktop) {
+//         // background-image: url("../img/index-background-desktop.png");
+//         // background-size: 720px;
+//     }
+>>>>>>> 0784b70c3658a5c6cc78aff6dbf0caed83ee1e53
 // }

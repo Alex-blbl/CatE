@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .work-description {
     margin-left: 20px;
     margin-right: 20px;
@@ -32,3 +33,39 @@
     }
 }
 
+=======
+.work-description {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 42px;
+}
+
+.work-description__wrapper {
+    @media(min-width: 548px) {
+        @media(max-width: $tablet) {
+            width: 548px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+.description-title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.work-description__list {
+    margin: 0;
+    padding: 0;
+}
+
+.work-description__title {
+    @media(min-width: $tablet) {
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+}
+
+>>>>>>> 0784b70c3658a5c6cc78aff6dbf0caed83ee1e53

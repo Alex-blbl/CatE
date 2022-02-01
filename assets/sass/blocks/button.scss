@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .button {
     display: block;
 
@@ -17,4 +18,25 @@
     &:active {
         color: rgba(#ffffff, 30%);
     }
+=======
+.button {
+    display: block;
+
+    background-color: #68B738;
+
+    font-family: "Oswald";
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: #5EAA2F;
+    }
+
+    &:active {
+        color: rgba(#ffffff, 30%);
+    }
+>>>>>>> 0784b70c3658a5c6cc78aff6dbf0caed83ee1e53
 }

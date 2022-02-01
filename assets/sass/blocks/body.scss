@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .body {
     padding: 0;
     margin: 0;
@@ -30,4 +31,38 @@
         background-repeat: no-repeat;
         background-position: 63% 143px, top right;
     }
+=======
+.body {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Oswald', sans-serif;
+
+    @media(min-width: $tablet) {
+        min-width: 768px;
+    }
+}
+
+.body-wrapper {
+
+    @media(min-width: $tablet) {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media(min-width: $desktop) {
+        min-width: 1200px;
+        max-width: 1440px;
+        width: 100%;
+
+        background-image: url("../img/index-can-desktop.png"),
+                          url("../img/index-background-desktop.png");
+        background-size: 552px, 720px;
+        background-repeat: no-repeat;
+        background-position: 63% 143px, top right;
+    }
+>>>>>>> 0784b70c3658a5c6cc78aff6dbf0caed83ee1e53
 }
