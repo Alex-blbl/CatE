@@ -227,7 +227,7 @@
         width: 24px;
         height: 12px;
         
-        background-image: url("../img/link-arrow.svg");
+        background-image: url("../../img/link-arrow.svg");
 
         @media(min-width: $tablet) {
             right: -49px;
@@ -244,7 +244,7 @@
             width: 32px;
             right: -60px;
 
-            background-image: url("../img/link-arrow--hover.svg");
+            background-image: url("../../img/link-arrow--hover.svg");
             background-repeat: no-repeat;
         }
     }    

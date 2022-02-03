@@ -11,6 +11,11 @@
         height: 597px;
 
         margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    @media(min-width: 900px) {
+        align-content: space-around;
     }
 
     @media(min-width: $desktop) {
